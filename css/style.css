@@ -50,11 +50,21 @@ body {
 .btn-i:hover {
     background: green;
 }
-
-
-
-
-
+/* MOb */
+.mob-h {
+  text-align: center;
+  font-size: 75px;
+}
+.mob-home {
+  width: 100%;
+  background: #00000036;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
 
 
 
