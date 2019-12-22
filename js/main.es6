@@ -1,3 +1,3 @@
 if (screen.width <= 699) {
-    document.location = "mob.html";
+    document.location = "./mob.html";
     }
