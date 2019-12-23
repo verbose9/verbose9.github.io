@@ -66,6 +66,7 @@ body {
 }
 .mob-home {
   width: 100%;
+  height: 100%;
   background: #00000036;
   position: absolute;
   top: 0;
@@ -73,6 +74,14 @@ body {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   text-align: center;
+}
+
+.k9 { 
+  background: -webkit-linear-gradient(blue, purple, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 150px;
 }
 
 
