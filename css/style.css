@@ -32,10 +32,18 @@ body {
     background: url('../imgs/back05.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 
+}
+.mob-body {
+  background: url('../imgs/back05.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: contain;
 }
 .btn-i {
     border: 0px;
