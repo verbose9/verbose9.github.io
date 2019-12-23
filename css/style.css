@@ -43,7 +43,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  background-size: contain;
+  background-size: cover;
 }
 .btn-i {
     border: 0px;
