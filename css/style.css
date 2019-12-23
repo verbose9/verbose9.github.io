@@ -32,7 +32,7 @@ body {
     background: url('../imgs/back05.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
     color: white;
 
