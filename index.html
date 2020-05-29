@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="./assets/imgs/untitled (2).png" type="image/x-icon">
 </head>
 
-<body style="display: none;">
+<body style="display: none;" onload="showAll()">
     <div class="container-root">
         <div class="contents">
             <div class="header">
@@ -80,6 +80,11 @@
     <div class="cursor"></div>
 
     <script src="./assets/js/script6.js"></script>
+    <script>
+        function showAll() {
+            document.querySelector('body').style = "display: block;"
+        }
+    </script>
 </body>
 
 </html>

@@ -13,9 +13,5 @@
             }, 500);
         })
         }
-
-        document.addEventListener('load', () => {
-            document.querySelector('body').style = "display : block;"
-        })
         
         
