@@ -35,6 +35,6 @@ jobs:
         run: npm run build
       - name: Staging and commiting changes
         run: |
-          git add .
-          git checkout website
+          git add build/
+          git checkout -b website
           git commit -m 'Bot added this page'
