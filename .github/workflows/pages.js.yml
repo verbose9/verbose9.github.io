@@ -5,9 +5,9 @@ name: Publish to Github pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
@@ -19,17 +19,11 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v2
-      name: Checkout 🎃
-    - name: Setting up git
-      run: git config --global user.email someone@example.com
-      run: git config --global user.name Github bot
-    - name: Get Node.js 🎲
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Installing dependencies 🧨
-      run: npm ci
-    - name: Building
-      run: npm run build
-      run: git add build && git checkout -b website && git commit -m "Github bot"
+      - uses: actions/checkout@v2
+        name: Checkout 🎃
+      - name: Get Node.js 🎲
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install Dependencies
+        run: npm ci
