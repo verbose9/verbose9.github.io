@@ -5,7 +5,7 @@ const App = () => {
     <>
       <div className="font-bold text-xl">Hello world</div>
       <button className="py-4 px-8 bg-blue-500 rounded-xl text-white">
-        Press me
+        Press me!
       </button>
     </>
   );
