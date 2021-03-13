@@ -4,19 +4,19 @@
       "bytes": 97,
       "imports": []
     },
-    "_snowpack/pkg/common/index-e66f0a38.js": {
-      "bytes": 8994,
+    "_snowpack/pkg/common/index-0ff745df.js": {
+      "bytes": 9166,
       "imports": []
     },
     "_snowpack/pkg/react.js": {
-      "bytes": 116,
+      "bytes": 171,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "path": "_snowpack/pkg/common/index-0ff745df.js",
           "kind": "import-statement"
         },
         {
-          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "path": "_snowpack/pkg/common/index-0ff745df.js",
           "kind": "import-statement"
         }
       ]
@@ -25,16 +25,37 @@
       "bytes": 127469,
       "imports": [
         {
-          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "path": "_snowpack/pkg/common/index-0ff745df.js",
           "kind": "import-statement"
         }
       ]
     },
+    "_snowpack/pkg/@animated-burgers/burger-arrow.js": {
+      "bytes": 3837,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-0ff745df.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css": {
+      "bytes": 3084,
+      "imports": []
+    },
     "dist/components/Navbar.js": {
-      "bytes": 235,
+      "bytes": 1108,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@animated-burgers/burger-arrow.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css",
           "kind": "import-statement"
         }
       ]
@@ -53,7 +74,7 @@
       ]
     },
     "dist/styles/tailwind.css": {
-      "bytes": 11994,
+      "bytes": 12785,
       "imports": []
     },
     "dist/index.js": {
@@ -91,17 +112,23 @@
         "_snowpack/env.js": {
           "bytesInOutput": 100
         },
-        "_snowpack/pkg/common/index-e66f0a38.js": {
-          "bytesInOutput": 7147
+        "_snowpack/pkg/common/index-0ff745df.js": {
+          "bytesInOutput": 7248
         },
         "_snowpack/pkg/react.js": {
-          "bytesInOutput": 0
+          "bytesInOutput": 18
         },
         "_snowpack/pkg/react-dom.js": {
           "bytesInOutput": 123827
         },
+        "_snowpack/pkg/@animated-burgers/burger-arrow.js": {
+          "bytesInOutput": 2929
+        },
+        "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css": {
+          "bytesInOutput": 0
+        },
         "dist/components/Navbar.js": {
-          "bytesInOutput": 112
+          "bytesInOutput": 571
         },
         "dist/App.js": {
           "bytesInOutput": 385
@@ -113,16 +140,19 @@
           "bytesInOutput": 123
         }
       },
-      "bytes": 131839
+      "bytes": 135470
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/styles/tailwind.css": {
-          "bytesInOutput": 4151
+          "bytesInOutput": 4790
+        },
+        "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css": {
+          "bytesInOutput": 2509
         }
       },
-      "bytes": 4193
+      "bytes": 7341
     }
   }
 }
