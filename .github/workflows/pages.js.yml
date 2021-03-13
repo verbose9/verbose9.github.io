@@ -38,4 +38,4 @@ jobs:
       - name: Commit
         run: |
           ls
-          git ls
+          cat .gitignore
