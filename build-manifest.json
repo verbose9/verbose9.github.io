@@ -9,7 +9,7 @@
       "imports": []
     },
     "_snowpack/pkg/react.js": {
-      "bytes": 171,
+      "bytes": 215,
       "imports": [
         {
           "path": "_snowpack/pkg/common/index-0ff745df.js",
@@ -43,8 +43,34 @@
       "bytes": 3084,
       "imports": []
     },
+    "../node_modules/@emotion/memoize/dist/memoize.browser.cjs.js": {
+      "bytes": 260,
+      "imports": []
+    },
+    "../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.cjs.js": {
+      "bytes": 4557,
+      "imports": [
+        {
+          "path": "../node_modules/@emotion/memoize/dist/memoize.browser.cjs.js",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "_snowpack/pkg/framer-motion.js": {
+      "bytes": 282268,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-0ff745df.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.cjs.js",
+          "kind": "require-call"
+        }
+      ]
+    },
     "dist/components/Navbar.js": {
-      "bytes": 1153,
+      "bytes": 1659,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -57,11 +83,15 @@
         {
           "path": "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css",
           "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/framer-motion.js",
+          "kind": "import-statement"
         }
       ]
     },
     "dist/App.js": {
-      "bytes": 687,
+      "bytes": 1128,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -70,11 +100,15 @@
         {
           "path": "dist/components/Navbar.js",
           "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/framer-motion.js",
+          "kind": "import-statement"
         }
       ]
     },
     "dist/styles/tailwind.css": {
-      "bytes": 12827,
+      "bytes": 13285,
       "imports": []
     },
     "dist/index.js": {
@@ -109,17 +143,23 @@
       "exports": [],
       "entryPoint": "dist/index.js",
       "inputs": {
+        "../node_modules/@emotion/memoize/dist/memoize.browser.cjs.js": {
+          "bytesInOutput": 177
+        },
+        "../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.cjs.js": {
+          "bytesInOutput": 4284
+        },
         "_snowpack/env.js": {
           "bytesInOutput": 100
         },
         "_snowpack/pkg/common/index-0ff745df.js": {
-          "bytesInOutput": 7248
+          "bytesInOutput": 7256
         },
         "_snowpack/pkg/react.js": {
-          "bytesInOutput": 18
+          "bytesInOutput": 33
         },
         "_snowpack/pkg/react-dom.js": {
-          "bytesInOutput": 123827
+          "bytesInOutput": 123951
         },
         "_snowpack/pkg/@animated-burgers/burger-arrow.js": {
           "bytesInOutput": 2929
@@ -127,11 +167,14 @@
         "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css": {
           "bytesInOutput": 0
         },
+        "_snowpack/pkg/framer-motion.js": {
+          "bytesInOutput": 80306
+        },
         "dist/components/Navbar.js": {
-          "bytesInOutput": 607
+          "bytesInOutput": 869
         },
         "dist/App.js": {
-          "bytesInOutput": 385
+          "bytesInOutput": 637
         },
         "dist/styles/tailwind.css": {
           "bytesInOutput": 0
@@ -140,19 +183,19 @@
           "bytesInOutput": 123
         }
       },
-      "bytes": 135506
+      "bytes": 221803
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/styles/tailwind.css": {
-          "bytesInOutput": 4823
+          "bytesInOutput": 5195
         },
         "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css": {
           "bytesInOutput": 2509
         }
       },
-      "bytes": 7374
+      "bytes": 7746
     }
   }
 }
