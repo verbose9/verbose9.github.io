@@ -36,9 +36,9 @@ jobs:
       - name: Installing dependencies
         run: npm i
       - name: Build
-        run: npm run docs
+        run: npm run build
       - name: Commit
         run: |
-          git add build/
+          git add docs/
           git commit -m 'Build page'
           git push --set-upstream origin gh-pages
