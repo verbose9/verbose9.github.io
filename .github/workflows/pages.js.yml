@@ -32,7 +32,7 @@ jobs:
       - name: Checkout 'website' branch
         run: |
           git checkout -b gh-pages
-          git fetch origin gh-pages
+          git pull origin gh-pages
       - name: Installing dependencies
         run: npm i
       - name: Build
