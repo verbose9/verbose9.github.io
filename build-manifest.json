@@ -53,7 +53,7 @@
       ]
     },
     "dist/styles/tailwind.css": {
-      "bytes": 11782,
+      "bytes": 11994,
       "imports": []
     },
     "dist/index.js": {
@@ -119,10 +119,10 @@
       "imports": [],
       "inputs": {
         "dist/styles/tailwind.css": {
-          "bytesInOutput": 3981
+          "bytesInOutput": 4151
         }
       },
-      "bytes": 4023
+      "bytes": 4193
     }
   }
 }
