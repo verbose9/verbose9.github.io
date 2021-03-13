@@ -5,3 +5,7 @@
 @layer base {
   @import url(https://rsms.me/inter/inter.css);
 }
+button,
+input {
+  @apply focus:outline-none;
+}
