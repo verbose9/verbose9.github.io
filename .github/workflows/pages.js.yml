@@ -16,7 +16,6 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - uses: actions/checkout@v2
@@ -25,20 +24,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Defining creditentials
-        run: |
-          git config pull.rebase false
-          git config user.name 'Electrolyte Orb'
-          git config user.email 'electrolyte.orb@gmail.com'
-      - name: Checkout 'website' branch
-        run: |
-          git checkout -b gh-pages
       - name: Installing dependencies
         run: npm i
       - name: Build
         run: npm run build
-      - name: Commit
-        run: |
-          git add docs/
-          git commit -m 'Build page'
-          git push --set-upstream origin gh-pages
+      - name: Deploy to pages(yo..) 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.
