@@ -37,5 +37,5 @@ jobs:
         run: npm run build
       - name: Commit
         run: |
-          ls
-          cat .gitignore
+          git commit -a -m 'Build page'
+          git push

@@ -1,5 +1,4 @@
 .snowpack
-build/
 package-lock.json
 # Logs
 logs
