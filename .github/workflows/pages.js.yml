@@ -27,8 +27,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Defining creditentials
         run: |
-          git config --global user.name 'Electrolyte Orb'
-          git config --global user.email 'electrolyte.orb@gmail.com'
+          git config pull.rebase false
+          git config user.name 'Electrolyte Orb'
+          git config user.email 'electrolyte.orb@gmail.com'
       - name: Checkout 'website' branch
         run: |
           git checkout -b gh-pages
