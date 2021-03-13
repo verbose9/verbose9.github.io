@@ -25,5 +25,18 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Listing Directory
-        run: ls -a
+      - name: Defining creditentials
+        run: |
+          git config --global user.name 'Electrolyte Orb'
+          git config --global user.email 'electrolyte.orb@gmail.com'
+      - name: Checkout 'website' branch
+        run: git checkout -b website
+      - name: Installing dependencies
+        run: npm i
+      - name: Build
+        run: npm run build
+      - name: Commit
+        run: |
+          git add .
+          git commit -m 'Build website'
+          git push
