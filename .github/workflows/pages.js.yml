@@ -37,6 +37,5 @@ jobs:
         run: npm run build
       - name: Commit
         run: |
-          git add .
-          git commit -m 'Build website'
-          git push
+          ls
+          git ls
