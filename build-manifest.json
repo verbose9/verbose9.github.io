@@ -1,0 +1,128 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-e66f0a38.js": {
+      "bytes": 8994,
+      "imports": []
+    },
+    "_snowpack/pkg/react.js": {
+      "bytes": 116,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/react-dom.js": {
+      "bytes": 127469,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Navbar.js": {
+      "bytes": 235,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.js": {
+      "bytes": 687,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Navbar.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/styles/tailwind.css": {
+      "bytes": 11782,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 523,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/styles/tailwind.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "dist/index.js",
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 100
+        },
+        "_snowpack/pkg/common/index-e66f0a38.js": {
+          "bytesInOutput": 7147
+        },
+        "_snowpack/pkg/react.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/react-dom.js": {
+          "bytesInOutput": 123827
+        },
+        "dist/components/Navbar.js": {
+          "bytesInOutput": 112
+        },
+        "dist/App.js": {
+          "bytesInOutput": 385
+        },
+        "dist/styles/tailwind.css": {
+          "bytesInOutput": 0
+        },
+        "dist/index.js": {
+          "bytesInOutput": 123
+        }
+      },
+      "bytes": 131839
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/styles/tailwind.css": {
+          "bytesInOutput": 3981
+        }
+      },
+      "bytes": 4023
+    }
+  }
+}
