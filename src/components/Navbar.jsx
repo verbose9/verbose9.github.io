@@ -4,8 +4,8 @@ import '@animated-burgers/burger-arrow/dist/styles.css';
 const Navbar = () => {
   const [burger, setBurger] = useState(false);
   return (
-    <div className="sticky w-full border-b border-gray-500 p-6 flex justify-between">
-      <div>Verbose 9</div>
+    <div className="sticky w-full border-b border-gray-500 p-6 flex justify-between items-center">
+      <div className="font-semibold">Verbose 9</div>
       <Burger
         style={{ fontSize: '10px' }}
         isOpen={burger}
