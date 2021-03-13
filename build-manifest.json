@@ -44,7 +44,7 @@
       "imports": []
     },
     "dist/components/Navbar.js": {
-      "bytes": 1108,
+      "bytes": 1153,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -74,7 +74,7 @@
       ]
     },
     "dist/styles/tailwind.css": {
-      "bytes": 12785,
+      "bytes": 12827,
       "imports": []
     },
     "dist/index.js": {
@@ -128,7 +128,7 @@
           "bytesInOutput": 0
         },
         "dist/components/Navbar.js": {
-          "bytesInOutput": 571
+          "bytesInOutput": 607
         },
         "dist/App.js": {
           "bytesInOutput": 385
@@ -140,19 +140,19 @@
           "bytesInOutput": 123
         }
       },
-      "bytes": 135470
+      "bytes": 135506
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
       "inputs": {
         "dist/styles/tailwind.css": {
-          "bytesInOutput": 4790
+          "bytesInOutput": 4823
         },
         "_snowpack/pkg/@animated-burgers/burger-arrow/dist/styles.css": {
           "bytesInOutput": 2509
         }
       },
-      "bytes": 7341
+      "bytes": 7374
     }
   }
 }
