@@ -30,7 +30,7 @@ jobs:
           git config --global user.name 'Electrolyte Orb'
           git config --global user.email 'electrolyte.orb@gmail.com'
       - name: Checkout 'website' branch
-        run: git checkout -b website
+        run: git checkout -b gh-pages
       - name: Installing dependencies
         run: npm i
       - name: Build
