@@ -31,6 +31,7 @@ jobs:
           git config --global user.email 'electrolyte.orb@gmail.com'
       - name: Checkout 'website' branch
         run: git checkout -b gh-pages
+        run: git fetch origin gh-pages
       - name: Installing dependencies
         run: npm i
       - name: Build
