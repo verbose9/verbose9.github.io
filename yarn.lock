@@ -2,6 +2,25 @@
 # yarn lockfile v1
 
 
+"@animated-burgers/burger-arrow@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@animated-burgers/burger-arrow/-/burger-arrow-1.1.2.tgz#6f232878b30f1514863e39d8e2e89069948ca345"
+  integrity sha512-6cIN1Ph1gutDKj4Sh+J/izRBP1i9yGcEcmFKdTVzAOAV4yFnAwcvPrM6W/T7NhpfwHPTIANKObRgTQO5qwWllw==
+  dependencies:
+    "@animated-burgers/burger" "^1.1.2"
+
+"@animated-burgers/burger-slip@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@animated-burgers/burger-slip/-/burger-slip-1.1.2.tgz#4a16a4744a7f39f65886707094f70ce646d7a140"
+  integrity sha512-gm63/GrqHOv/wMYECx+Sag3uYm/STFaaAMaRGOFzxFYoHV+TZERVrj4RYUE9YIdsagxdEj18KVmCwXO7WHoG2w==
+  dependencies:
+    "@animated-burgers/burger" "^1.1.2"
+
+"@animated-burgers/burger@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@animated-burgers/burger/-/burger-1.1.2.tgz#a75f7147f9d4041b8bfd510e0097a1500c4fa009"
+  integrity sha512-hErU9dlOcEeYbmbhhngBMXSDtqOaXfFEnKoodfs6vCFWD8dVLMNVbFFpZ0eV7/Wa9kKTGLPeLtDeP0vWYAcY7w==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
@@ -433,6 +452,11 @@ chokidar@^3.3.0:
     readdirp "~3.5.0"
   optionalDependencies:
     fsevents "~2.3.1"
+
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
 cliui@^7.0.2:
   version "7.0.4"
