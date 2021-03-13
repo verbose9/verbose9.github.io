@@ -40,6 +40,6 @@ jobs:
         run: npm run build
       - name: Commit
         run: |
-          git add .
+          git add build/
           git commit -m 'Build page'
           git push --set-upstream origin gh-pages
