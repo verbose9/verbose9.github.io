@@ -9,3 +9,39 @@ button,
 input {
   @apply focus:outline-none;
 }
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  width: 25px;
+  height: 1.5px;
+  background: black;
+  right: 0;
+  bottom: -2px;
+  position: absolute;
+}
+.collab-btn {
+  position: relative;
+}
+
+.collab-btn::after {
+  content: '';
+  width: 25px;
+  height: 10px;
+  background: black;
+  right: -2px;
+  bottom: -2px;
+  position: absolute;
+}
+.tech-stack::before {
+  @apply bg-gray-900;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translate(30px, 50px);
+  z-index: -1;
+}
